@@ -1,0 +1,29 @@
+body {
+background: linear-gradient(lemonchiffon,khaki);
+}
+h1 {
+    color: darkslateblue;
+    font-style: oblique;
+    text-decoration: underline;
+}
+h3 {
+    font-style: italic;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;   
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+a:link {
+    color: white;
+}
+a:visited {
+    color: darkslateblue;
+}
+.menu a {
+    margin-left: 10px;
+}
